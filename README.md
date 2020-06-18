@@ -13,7 +13,6 @@ Automated tests for Trello API using Python
 10) On the same page, click on the link to generate a token manually
 11) At the bottom of Server Token page, click on the Permit button to grant the permissions to Server Token
 12) Take note of the generated token
-13) Run the tests using the following command line:
-    python trello_api_test.py <API key (Step #9)> <Server Token (Step #10)> <Trello user (email)> <Trello password>
+13) Run the tests using the following command line: python trello_api_test.py <API key> <Server Token> <Trello user> <Trello password>
 14) By the end of the test execution, a HTML report will be generated on the folder html_report
 15) Screenshots of the testcases screens will be saved on the root tests folder
